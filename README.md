@@ -8,14 +8,14 @@ This repository contains object_detection in python which is able to perform the
 
 For object detection YOLO-V3 has been used which is able to detect 80 different objects. Some of those are-
 
-    person
-    car
-    bus
-    stop sign
-    bench
-    dog
-    bear
-    backpack and so on.
+    - person
+    - car
+    - bus
+    - stop sign
+    - bench
+    - dog
+    - bear
+    - backpack and so on.
 
 
 
