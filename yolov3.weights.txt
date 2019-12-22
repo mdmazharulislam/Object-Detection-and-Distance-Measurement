@@ -1,2 +1,0 @@
-Download the yolov3 file from the given link:
-https://pjreddie.com/darknet/yolo/
