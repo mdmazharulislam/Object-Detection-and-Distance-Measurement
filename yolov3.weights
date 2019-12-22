@@ -1,0 +1,4 @@
+Weights is a trained model to detect object and need to download it.
+As the github doesn't support the file bigger than 25MB then
+We need to download it from the given link:
+https://pjreddie.com/darknet/yolo/
