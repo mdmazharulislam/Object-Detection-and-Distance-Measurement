@@ -17,7 +17,7 @@ For object detection YOLO-V3 has been used which is able to detect 80 different 
     - bear
     - backpack and so on.
 
-##Theory
+## Theory
 
 In a traditional image classification approach for object detection there are two well-known strategies.
 
