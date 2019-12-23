@@ -30,6 +30,17 @@ For multiple objects in a image there are two scenarios.
 
     1. Object detection and localization
     2. Object segmentation
+    
+    
+    
+## References
+
+1. https://sci-hub.tw/10.1109/SAS.2010.5439423
+2. http://emaraic.com/blog/distance-measurement
+3. https://www.pyimagesearch.com/2016/04/04/measuring-distance-between-objects-in-an-image-with-opencv/
+4. https://www.khanacademy.org/science/physics/geometric-optics/lenses/v/object-image-and-focal-distance-relationship-proof-of-             formula
+5. https://www.khanacademy.org/science/ap-physics-1/ap-centripetal-force-and-gravitation/introduction-to-uniform-circular-motion-ap/v/distance-or-arc-length-from-angular-displacement
+
 
 
 
