@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 # Load Yolo
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+net = cv2.dnn.readNet("yolov3-tiny.weights", "yolov3-tiny.cfg")
 classes = []
 with open("coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
@@ -12,7 +12,7 @@ output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
 # Loading image
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("walking.mp4")
 
 font = cv2.FONT_HERSHEY_PLAIN
 starting_time = time.time()
@@ -69,7 +69,7 @@ while True:
     elapsed_time = time.time() - starting_time
     fps = frame_id / elapsed_time
     cv2.putText(frame, "FPS: " + str(round(fps, 2)), (10, 50), font, 4, (0, 0, 0), 3)
-    cv2.imshow("Video Frame", frame)
+    cv2.imshow("Image", frame)
     key = cv2.waitKey(1)
     if key == 27:
         break
